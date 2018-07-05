@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <TextView
+        android:id="@+id/txtJogoResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Brasil x Russia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="35dp"/>
+
+
+    <TextView
+        android:id="@+id/txtHorarioLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtJogoResultado"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="09:00 20/06/2018 Estadio Moskou"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="107dp"
+        android:text="X"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/iconCasa"
+        android:layout_width="47dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/txtHorarioLocal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-8dp"
+        android:layout_toStartOf="@+id/txtGolsCasa"
+        app:srcCompat="@drawable/ic_shortcut_person" />
+
+    <EditText
+        android:id="@+id/txtGolsCasa"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHorarioLocal"
+        android:layout_toStartOf="@+id/txtX"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_marginTop="-8dp"
+        android:layout_marginBottom="35dp"/>
+
+    <EditText
+        android:id="@+id/txtGolsVisitante"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHorarioLocal"
+        android:layout_toEndOf="@+id/txtX"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_marginTop="-8dp"
+        android:layout_marginBottom="35dp"/>
+
+    <ImageView
+        android:id="@+id/iconVisitante"
+        android:layout_width="47dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/txtHorarioLocal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="-8dp"
+        android:layout_toEndOf="@+id/txtGolsVisitante"
+        app:srcCompat="@drawable/ic_shortcut_person" />
+
+
+</RelativeLayout>

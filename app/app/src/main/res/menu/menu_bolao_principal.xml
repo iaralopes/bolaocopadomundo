@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.puc.bolaocopamundo.activity.BaseActivity">
+
+    <item
+        android:id="@+id/action_membros"
+        android:orderInCategory="100"
+        android:title="Membros"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_resultados"
+        android:orderInCategory="100"
+        android:title="Resultados"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_rank"
+        android:orderInCategory="100"
+        android:title="Rank"
+        app:showAsAction="never" />
+</menu>

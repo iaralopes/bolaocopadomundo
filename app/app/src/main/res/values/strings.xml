@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bolão Copa do Mundo 2018</string>
+    <string name="facebook_app_id">1222770677856995</string>
+    <string name="fb_login_protocol_scheme">fb1222770677856995</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="tab_text_1">Palpites</string>
+    <string name="tab_text_2">Resultados</string>
+    <string name="tab_text_3">Ranks</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="resultadoJogoEx">Resultado: Brasil 2 x 0 Russia</string>
+    <string name="apostaJogoEx">Aposta: Brasil 2 x 0 Russia</string>
+</resources>

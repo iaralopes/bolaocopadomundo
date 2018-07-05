@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txtJogoResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Brasil x Russia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/txtHorarioLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtJogoResultado"
+        android:layout_centerHorizontal="true"
+        android:text="09:00 20/06/2018 Estadio Moskou"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txtAposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHorarioLocal"
+        android:layout_centerHorizontal="true"
+        android:text="Acerto em Cheio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtResultadoAposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAposta"
+        android:layout_centerHorizontal="true"
+        android:text="Aposta: 2 x 0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_marginBottom="25dp"/>
+
+    <ImageView
+        android:id="@+id/iconCasa"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignTop="@+id/txtJogoResultado"
+        android:layout_toStartOf="@+id/txtJogoResultado"
+        android:layout_marginRight="3dp"
+        app:srcCompat="@drawable/ic_shortcut_person" />
+
+    <ImageView
+        android:id="@+id/iconVisitante"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignTop="@+id/txtJogoResultado"
+        android:layout_toEndOf="@+id/txtJogoResultado"
+        android:layout_marginLeft="3dp"
+        app:srcCompat="@drawable/ic_shortcut_person" />
+
+</RelativeLayout>
